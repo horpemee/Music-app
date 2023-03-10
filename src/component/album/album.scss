@@ -1,0 +1,82 @@
+.navbar1 {
+  background: #1e1e1e;
+  //   background: linear-gradient(180deg, rgba(29, 33, 35, 0.8) 0%, #1d2123 61.48%);
+  background-image: url("./album-images/Lead-image.svg");
+  background-size: cover;
+  background-position: 10% 25%;
+  background-repeat: no-repeat;
+  height: 450px;
+  // width: 100vw;
+  // display: flex;
+  // flex: 1;
+
+  .search-bar {
+    padding: 20px 20px;
+
+    display: flex;
+    justify-content: center;
+    color: gray;
+    gap: 20px;
+    align-items: center;
+
+    .search {
+      background: transparent;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 15px;
+      color: white;
+
+      &::placeholder {
+        color: gray;
+      }
+    }
+  }
+
+  .music-category {
+    padding: 20px 0;
+    display: flex;
+    color: white;
+    gap: 30px;
+
+    .category {
+      align-self: flex-end;
+
+      h2 {
+        margin-bottom: 10px;
+        color: #a4c7c6;
+        font-weight: 700;
+        font-size: 30px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 200;
+        margin-bottom: 10px;
+      }
+    }
+
+    .icons {
+      display: flex;
+      gap: 5px;
+
+      flex-direction: row;
+
+      .play,
+      .collection,
+      .heart {
+        border-radius: 50px;
+        padding: 10px 20px;
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        background-color: #33373b;
+        border: none;
+        cursor: pointer;
+
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

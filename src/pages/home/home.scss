@@ -1,0 +1,16 @@
+.home-container {
+  display: flex;
+  overflow: hidden;
+  // height: 100vh;
+  width: 100%;
+  background-color: #1e1e1e;
+
+  .home-container-1 {
+    flex: 4;
+    // background-color: blue;
+    .widgets {
+      width: 100vw;
+      display: flex;
+    }
+  }
+}

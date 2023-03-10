@@ -1,0 +1,39 @@
+.sidebar {
+  background-color: #1d2123;
+  height: 100vh;
+  padding: 20px;
+
+  .top-logo {
+    padding: 10px 0;
+  }
+  .middle-logo {
+    // border: 2px solid red;
+
+    border: 2px solid #1a1e1f;
+    border-radius: 50px;
+    margin: 10px 0;
+    padding: 20px 10px;
+    background-color: #1a1e1f;
+
+    .middle-icons {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .bottom-logo {
+    border: 2px solid #1a1e1f;
+    border-radius: 50px;
+    background-color: #1a1e1f;
+    padding: 20px 10px;
+
+    .bottom-icons {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
